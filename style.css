@@ -211,4 +211,44 @@
 .help-them{
     padding: 15px;
 }
+.heading{
+    text-align: center;
+    margin-top: 30px;
+   
+}
+.sub-heading{
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.last-heading{
+    margin-bottom: 20px;
+}
+.email-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 215px;
+    width: 865px;
+    margin: 130px auto;
+    background-color: antiquewhite;
+}
+.sub{
+    display: flex;
+    align-items: center;
+}
+input [type="email"]{
+    padding-left: 30px;
+    width: 300px;
+    height: 50px;
+    border: 0px;
+    background-color: #d9d9d9;
+    color: #AD9F9F;
+    border-radius: 10px 0px 0px 10px;
 
+}
+input[type="button"]{
+    margin: 0px 0px 0px -5px;
+    height: 50px;
+    border-radius: 0px 10px 10px 0px;
+}
